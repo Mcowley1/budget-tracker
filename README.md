@@ -10,11 +10,9 @@ Budget-Tracker allows you to track your positive or negative expenses.
 > 6. PWA, Cache API, IndexDB
 > 7. Npm packages: morgan and compression
 
-
 # Snapshot
 
 ![Budget Tracker](budget-pic.png)
-
 
 # Table of Contents 
 * [Description](#Description)
@@ -29,20 +27,13 @@ Budget-Tracker allows you to track your positive or negative expenses.
 * To properly install the database you must create at cluster on Mongodb atlas.
 * Run "npm run dev" for the port to start listening with mongoose.
 
-
-
 # Github link
 [Budget-Tracker Repo](https://github.com/Mcowley1/budget-tracker)
-
-
 
 # Heroku
 [Budget-Tracker Heroku link](https://git.heroku.com/enigmatic-brook-39247.git)
 
-
-
-
 # Questions?
-## Please contact me:
+## Contact me:
   * [My GitHub Profile](https://github.com/Mcowley1)
   * Email at: matthewcowley01@gmail.com

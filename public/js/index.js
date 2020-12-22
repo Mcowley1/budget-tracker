@@ -89,7 +89,6 @@ function sendTransaction(isAdding) {
   if (!isAdding) {
     transaction.value *= -1;
   }
-  // add to beginning of current array of data
 
   transactions.unshift(transaction);
     console.log({ transactions, transaction});
@@ -97,9 +96,6 @@ function sendTransaction(isAdding) {
   populateChart();
   populateTable();
   populateTotal();
-  
-  
-  
   
   // also send to server
   console.log(fetch);

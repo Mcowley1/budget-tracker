@@ -1,4 +1,3 @@
-//create db var
 let db;
 // create connection to Indexedb db and call it budget_tracker_pwa. Set it to version 1
 const request = window.indexedDB.open('budget_tracker_pwa', 1);
@@ -64,7 +63,6 @@ function uploadTransaction() {
             throw new Error(serverResponse);
           }
 
-          //another one
           const transaction = db.transaction(['budget_tracker_pwa'], 'readwrite');
           const transactionObjectStore = transaction.objectStore('budget_tracker_pwa');
           // clear all items in your store
