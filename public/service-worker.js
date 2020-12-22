@@ -8,14 +8,6 @@ const FILES_TO_CACHE = [
   // "/",
   // "./manifest.json",
   "./service-worker.js"
-  // "/icons/icon-128x128.png",
-  // "/icons/icon-144x144.png",
-  // "/icons/icon-384x384.png",
-  // "/icons/icon-512x512.png",
-  // "/icons/icon-152x152.png",
-  // "/icons/icon-192x192.png",
-  // "/icons/icon-72x72.png",
-  // "/icons/icon-96x96.png"
 ];
 
 const APP_PREFIX = 'BudgetTrackerPWA-';     
@@ -56,7 +48,7 @@ self.addEventListener('activate', function(e) {
   self.clients.claim();
 });
 
-// how to retrieve information from the cache. To do that, we need to add another event listener.
+
 
 self.addEventListener('fetch', function (e) {
   //   For our own development purposes, we can console log e.request.url, so that every single time the application requests a resource, we'll console log the path to that resource
@@ -71,8 +63,7 @@ self.addEventListener('fetch', function (e) {
         return fetch(e.request)
       }
 
-      // You can omit if/else for console.log & put one line below like this too.
-      // return request || fetch(e.request)
+      
     })
   )
 })

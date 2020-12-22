@@ -1,33 +1,27 @@
 # Budget-Tracker
+# Description
+Budget-Tracker allows you to track your positive or negative expenses.
 
-
-## Tools Used
-
-* JavaScript
-* Node.js
-* Express
-* Mongodb
-* Mongoose
-* Dotenv
-* PWA
-* Service workers
+## Tools and Languages
+> 1. JavaScript
+> 2. Node.js
+> 3. Express
+> 4. Mongodb
+> 5. Mongoose
+> 6. PWA
+> 7. Service workers
 
 
 # Snapshot
 
-[![Budget Tracker]()]
+![Budget Tracker](budget-pic.png)
 
-
-# Description
-This app allows to create and use 
 
 # Table of Contents 
 * [Description](#Description)
 * [Installation & Database SetUp](#Installation)
-* [Walk-through-Video](#Walk-through)
-* [License](#license)
-* [Contributing](#contributing)
-* [Tests](#tests)
+* [Github link](#Links)
+* [Heroku](#Heroku)
 * [Questions](#questions)
 
 # Installation & Database SetUp
@@ -38,7 +32,8 @@ This app allows to create and use
 
 
 
-# Walk-through Video
+# Github link
+[Budget-Tracker Repo](https://github.com/Mcowley1/budget-tracker)
 
 
 
@@ -50,5 +45,4 @@ This app allows to create and use
 # Questions?
 ## Please contact me:
   * [My GitHub Profile](https://github.com/Mcowley1)
-  * [My Github Project Repository](https://github.com/Mcowley1/budget-tracker)
   * Email at: matthewcowley01@gmail.com
