@@ -6,10 +6,9 @@ Budget-Tracker allows you to track your positive or negative expenses.
 > 1. JavaScript
 > 2. Node.js
 > 3. Express
-> 4. Mongodb
-> 5. Mongoose
-> 6. PWA
-> 7. Service workers
+> 4. Mongodb and Mongoose
+> 6. PWA, Cache API, IndexDB
+> 7. Npm packages: morgan and compression
 
 
 # Snapshot
